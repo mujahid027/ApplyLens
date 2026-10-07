@@ -1,0 +1,15 @@
+{
+  "name": "applylens",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A privacy-first job application tracker that runs entirely in the browser.",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/app.mjs && node --check src/core.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
